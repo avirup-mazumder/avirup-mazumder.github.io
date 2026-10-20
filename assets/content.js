@@ -46,7 +46,7 @@ export const projects = [
     href: 'https://drive.google.com/file/d/1chw6W9dSwnsTOmxWICVNHxUoBSltyU9O/view?usp=sharing',
     tags: ['Co-writing', 'Co-direction', 'Short film'],
     style: 'paradox',
-    image: './assets/images/paradox.jpeg',
+    image: './assets/images/movie_thum.png',
     imageAlt: 'Scene from the short film The Paradox',
   },
   {
@@ -60,23 +60,25 @@ export const projects = [
     href: 'https://drive.google.com/file/d/1_HKB_CB_g0br2d9KaN9I4USDFfi1Al8Y/view?usp=drive_link',
     tags: ['Film production', 'Creative project'],
     style: 'sneaker',
-    image: './assets/images/sneaker.jpeg',
+    image: './assets/images/movie_2.png',
     imageAlt: 'Film still showing sneakers being tied in A Day in the Life of a Sneaker',
   },
 
   {
-    id: 'protein-curd-story', number: '04', title: 'Everyday protein, made relatable',
-    client: 'Sid’s Farm · Protein Story', category: 'Influencer Marketing / Caption Writing',
+    id: 'protein-curd-story', number: '04', title: 'Influencer Marketing — High Protein Curd',
+    client: 'High Protein Curd · Creator Campaign', category: 'Influencer Marketing',
+    video: './assets/videos/protein-curd.mp4',
     description: 'A creator-led high-protein curd story, with nutrition messaging and an accessible recipe.',
-    detail: 'Marketing and caption-writing sample documented on page 60 of my portfolio. The accompanying caption introduces Sid’s Farm High Protein Curd, suggests a sattu drink recipe and positions protein-rich foods as a simple part of daily routines. The source presentation includes a video still but no playable video URL.',
+    detail: 'Marketing and caption-writing sample documented on page 60 of my portfolio. The accompanying caption introduces Sid’s Farm High Protein Curd, suggests a sattu drink recipe and positions protein-rich foods as a simple part of daily routines. The campaign video will play here once its file is added to the website.',
     tags: ['Influencer content', 'Campaign copy', 'Food storytelling'], style: 'farm',
     image: './assets/images/marketing-protein.jpeg', imageAlt: 'Creator video still for a Sid’s Farm high-protein curd campaign'
   },
   {
-    id: 'curd-story', number: '05', title: 'A simple, trustworthy choice',
-    client: 'Sid’s Farm · Curd Story', category: 'Influencer Marketing / Social Copy',
+    id: 'curd-story', number: '05', title: 'Influencer Marketing — Everyday Curd',
+    client: 'High Protein Curd · Lifestyle Campaign', category: 'Influencer Marketing',
+    video: './assets/videos/everyday-curd.mp4',
     description: 'A lifestyle-focused creator narrative around Sid’s Farm High Protein Curd.',
-    detail: 'Marketing sample documented on page 62 of my portfolio. The caption focuses on convenience, taste and confidence in the product. The source presentation contains a creator still and the written caption, but no playable video URL.',
+    detail: 'Marketing sample documented on page 62 of my portfolio. The caption focuses on convenience, taste and confidence in the product. The campaign video will play here once its file is added to the website.',
     tags: ['Creator content', 'Social media', 'Brand messaging'], style: 'farm',
     image: './assets/images/marketing-curd.jpeg', imageAlt: 'Creator video still for the Sid’s Farm High Protein Curd lifestyle campaign'
   },
